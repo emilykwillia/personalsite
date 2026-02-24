@@ -1,0 +1,64 @@
+body {
+background : lightseagreen;
+margin : 0px;
+}
+
+/* Top Header Page !! */ 
+nav {
+    background : lightseagreen;
+    padding : 25px;
+}
+nav a {
+     color :black;
+     font-family: 'Times New Roman', Times, serif
+     font-weight: 600;
+     font-size: 25px;
+     padding: 100px;
+     text-decoration: none;
+}
+
+nav a:hover {
+color : white;
+font-size: 30px;
+}
+
+
+
+
+
+/* Center Page */
+.page {
+    background : pink;
+    margin : 0;
+
+}
+
+
+
+
+/* Footer */
+
+.groupfour {
+    text-align : center;
+    color : white;
+    font-size : 40px;
+}
+
+.email {
+    text-align : center;
+    color : white;
+    font-size : 25px;
+}
+
+
+
+
+
+/* Container Work */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+
+}

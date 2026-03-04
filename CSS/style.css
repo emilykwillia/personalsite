@@ -1,7 +1,7 @@
 body {
 background : rgb(98, 151, 124);
 margin : 0px;
-height: 3300px;
+height: 300px;
 }
 
 /* Top Header Page !! */ 
@@ -39,9 +39,10 @@ font-size: 30px;
 
 .name {
     color : rgb(12, 32, 23);
-    text-align : right;
+    text-align : center;
     background: rgb(98, 151, 124);
     height : 1000px;
+    width : 370px;
      font-size : 20px;
 }
 .images {

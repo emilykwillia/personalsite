@@ -1,0 +1,100 @@
+body {
+background : rgb(98, 151, 124);
+margin : 0px;
+height: 300px;
+}
+
+/* Top Header Page !! */ 
+nav {
+    background : rgb(98, 151, 124);
+    padding : 25px;
+}
+nav a {
+     color :rgb(255, 246, 223);
+     font-family : 'Times New Roman', Times, serif
+     font-weight : 600;
+     font-size : 25px;
+     padding : 100px;
+     text-decoration : none;
+}
+
+nav a:hover {
+color : rgb(12, 32, 23);
+font-size: 30px;
+}
+
+/* Center Page */
+
+.image1 {
+    position: absolute;
+    padding: 15px;
+}
+.page {
+    background : rgb(255, 246, 223);
+    margin : 5;
+    height : 3000px;
+
+}
+
+.break {
+    background :rgb(255, 246, 223);
+    height: 100px;
+}
+
+.name {
+    color : rgb(12, 32, 23);
+    background :rgb(98, 151, 124);
+    border : 10px solid rgb(12, 32, 23);
+    height : 200px;
+    text-align : center;
+     font-size : 25px;
+}
+
+.tyler {
+    color : rgb(12, 32, 23);
+    background :rgb(98, 151, 124);
+    border : 6px solid rgb(12, 32, 23);
+    text-align : center;
+     font-size : 30px;
+}
+
+.infoty {
+    padding : 40px;
+      text-align : right;
+    align-items: right;
+     font-size : 25px;
+}
+
+.gina {
+    color : rgb(12, 32, 23);
+    background :rgb(98, 151, 124);
+    border : 6px solid rgb(12, 32, 23);
+    text-align : center;
+     font-size : 30px;
+}
+
+.infogi {
+    padding : 40px;
+      text-align : left;
+    align-items: left;
+     font-size : 25px;
+}
+
+
+.infoty {
+    padding : 40px;
+      text-align : right;
+    align-items: right;
+     font-size : 25px;
+}
+
+
+
+/* Container Work! */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+
+}

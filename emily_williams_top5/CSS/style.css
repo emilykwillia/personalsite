@@ -1,0 +1,123 @@
+body {
+background : rgb(98, 151, 124);
+margin : 0px;
+height: 3300px;
+}
+
+/* Top Header Page !! */ 
+nav {
+    background : rgb(98, 151, 124);
+    padding : 25px;
+}
+nav a {
+     color :rgb(255, 246, 223);
+     font-family : 'Times New Roman', Times, serif
+     font-weight : 600;
+     font-size : 25px;
+     padding : 100px;
+     text-decoration : none;
+}
+
+nav a:hover {
+color : rgb(12, 32, 23);
+font-size: 30px;
+}
+
+/* Center Page */
+
+.break {
+    background :rgb(255, 246, 223);
+    height: 100px;
+}
+
+.name {
+    color : rgb(255, 246, 223);
+    background :rgb(98, 151, 124);
+    border : 10px solid rgb(12, 32, 23);
+    height : 125px;
+    text-align : center;
+     font-size : 25px;
+}
+
+
+
+.page {
+    background : rgb(255, 246, 223);
+    margin : 0;
+    height : 4000px;
+
+}
+
+.intro {
+    color : rgb(12, 32, 23);
+    border : 10px dotted,rgb(98, 151, 124);
+    text-align : center;
+     font-size : 25px;
+     padding : 40px;
+}
+.intro2 {
+    color : rgb(255, 246, 223);
+    border : 10px dotted,rgb(12, 32, 23);
+    background : rgb(98, 151, 124);
+    text-align : center;
+     font-size : 25px;
+     padding : 40px;
+}
+.music{
+    color :rgb(12, 32, 23);
+    flex-direction : row;
+    display : flex;
+    padding : 20px;
+    font-size : 15px;
+    gap : 45px;
+    text-align : center;
+    
+
+}
+
+.music a{
+    text-decoration : none;
+    color : rgb(98, 151, 124);
+    font-weight : bold;
+    font-size : 20px;
+}
+.music img{
+    width : 200px;
+    height : 200px;
+}
+
+
+.cats{
+    flex-direction : row;
+    padding : 20px;
+    font-size : 20px;
+    text-align : center;
+
+}
+.cats a{
+    text-decoration : none;
+    color : rgb(98, 151, 124);
+    font-weight : bold;
+    font-size : 20px;
+}
+.cats img{
+    width : 500px;
+    height : 250px;
+}
+
+
+/* Container Work */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px 0;
+
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+
+}

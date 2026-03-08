@@ -1,7 +1,7 @@
 body {
 background : rgb(98, 151, 124);
 margin : 0px;
-height: 300px;
+height: 1000px;
 }
 
 /* Top Header Page !! */ 
@@ -42,7 +42,7 @@ font-size: 30px;
 }
 
 .name {
-    color : rgb(12, 32, 23);
+    color : rgb(255, 246, 223);
     background :rgb(98, 151, 124);
     border : 10px solid rgb(12, 32, 23);
     height : 200px;
@@ -58,6 +58,11 @@ font-size: 30px;
      font-size : 30px;
 }
 
+.tyler a{
+
+         color : rgb(12, 32, 23);
+
+}
 .infoty {
     padding : 40px;
       text-align : right;
@@ -73,6 +78,9 @@ font-size: 30px;
      font-size : 30px;
 }
 
+.gina a{
+    color : rgb(12, 32, 23);
+}
 .infogi {
     padding : 40px;
       text-align : left;
@@ -80,15 +88,21 @@ font-size: 30px;
      font-size : 25px;
 }
 
-
-.infoty {
+.oct {
     padding : 40px;
       text-align : right;
     align-items: right;
      font-size : 25px;
 }
 
-
+.infooct {
+       color : rgb(12, 32, 23);
+    background :rgb(98, 151, 124);
+    border : 6px solid rgb(12, 32, 23);
+    text-align : center;
+     font-size : 25px;
+     padding : 40px;
+}
 
 /* Container Work! */
 .container {

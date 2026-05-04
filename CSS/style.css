@@ -8,10 +8,11 @@ height: 300px;
 nav {
     background : rgb(98, 151, 124);
     padding : 25px;
+    outline:rgb(12, 32, 23) solid 4px;
 }
 nav a {
      color :rgb(255, 246, 223);
-     font-family : 'Times New Roman', Times, serif
+     font-family : 'Times New Roman', Times, serif;
      font-weight : 600;
      font-size : 25px;
      padding : 100px;
@@ -54,13 +55,14 @@ font-size: 30px;
 
 .text {
     background: rgb(98, 151, 124);
+    padding: 25px;
     height : 1300px;
     color : rgb(12, 32, 23);
     font-size : 20px;
 
 }
 
-.proud {
+.proud { 
     text-align: center;
     font-size: 30px;
     color :rgb(98, 151, 124);
@@ -117,6 +119,7 @@ font-size: 30px;
     margin : 10px;
     padding :20px;
 }
+
 
   .right-container {
    width : 50%;

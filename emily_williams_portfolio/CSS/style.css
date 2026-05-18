@@ -294,75 +294,65 @@ animation: spin 5s infinite;
 
 
 /* Screen Adaptive */
-/* Responsive Design for Smaller Screens (Under 12") */
+
 @media (max-width: 768px) {
-    nav a {
-        font-size: 16px;
-        padding: 15px;
-    }
-    
-    nav a:hover {
-        font-size: 18px;
-    }
-    
-    .title {
-        font-size: 18px;
-        height: 150px;
-    }
-    
-    .projects {
-        padding: 20px;
-        font-size: 20px;
-    }
-    
-    .brainwave, .helote, .goldcoast {
-        padding: 20px;
-        font-size: 16px;
-    }
-    
-    }
-
-
-/* Extra small screens (phones) */
-@media (max-width: 1290px) {
-    body {
-        height: auto;
-    }
-    
     nav {
         padding: 15px;
         outline: rgb(12, 32, 23) solid 2px;
     }
-    
+
     nav a {
-        font-size: 14px;
-        padding: 8px;
         display: block;
         margin: 5px 0;
+        padding: 10px;
+        font-size: 16px;
     }
-    
-    nav a:hover {
-        font-size: 15px;
-    }
-    
+
     .page {
         height: auto;
     }
-    
+
+    .title {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .brainwave, .helote, .goldcoast {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+     .brainwave p, .helote p, .goldcoast p{
+       font-size: 20px;
+    }
+    .brainwave link, .helote link, .goldcoast link{
+       font-size: 20px;
+    }
+    .img {
+        max-width: 220px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        height: auto;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
     .title {
         font-size: 16px;
-        height: auto;
-        padding: 15px;
     }
-    
-    .projects{
-        padding: 15px;
-        font-size: 16px;
+
+    .img {
+        max-width: 180px;
     }
-    
-    .brainwave, .helote, .goldcoast {
-        padding: 15px;
-        font-size: 14px;
-    }
-    
+}
+.contact {
+    text-align : center;
 }

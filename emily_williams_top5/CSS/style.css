@@ -54,7 +54,7 @@ animation: spin 5s infinite;
     border : 10px solid rgb(12, 32, 23);
     height : 125px;
     text-align : center;
-     font-size : 25px;
+    font-size : 25px;
 }
 
 .page {
@@ -68,16 +68,16 @@ animation: spin 5s infinite;
     color : rgb(12, 32, 23);
     border : 10px dotted,rgb(98, 151, 124);
     text-align : center;
-     font-size : 25px;
-     padding : 40px;
+    font-size : 25px;
+    padding : 40px;
 }
 .intro2 {
     color : rgb(255, 246, 223);
     border : 10px dotted,rgb(12, 32, 23);
     background : rgb(98, 151, 124);
     text-align : center;
-     font-size : 25px;
-     padding : 40px;
+    font-size : 25px;
+    padding : 40px;
 }
 .music{
     color :rgb(12, 32, 23);
@@ -123,6 +123,7 @@ animation: spin 5s infinite;
 }
 
 /* Scream-Squeal Animation */
+
 .scream-squeal {
     padding: 30px;
     display: inline-block;
@@ -170,6 +171,7 @@ animation: spin 5s infinite;
 }
 
 /* Responsive Top5 page */
+
 @media (max-width: 1024px) {
     nav a {
         font-size: 18px;

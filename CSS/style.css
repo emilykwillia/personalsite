@@ -86,25 +86,8 @@ animation: spin 5s infinite;
     color : rgb(101, 93, 87);
 
 }
-/* Footer */
 
-.contact {
-    text-align : center;
-    color : rgb(255, 246, 223);
-    font-size : 80px;
-}
-
-.email {
-    text-align : center;
-    color : rgb(255, 246, 223);
-    font-size : 35px;
-}
-
-.tenor-gif-embed {
-    width: 80px;
-    height: 80px;
-
-}
+/* Getz Hover*/
 
 .getz-hover {
     cursor: pointer;
@@ -145,7 +128,25 @@ animation: spin 5s infinite;
     }
 }
 
+
+/* Footer */
+
+.contact {
+    text-align : center;
+    color : rgb(255, 246, 223);
+    font-size : 80px;
+}
+
+.email {
+    text-align : center;
+    color : rgb(255, 246, 223);
+    font-size : 35px;
+}
+
+
+
 /* Container Work */
+
 .container {
     display: flex;
     justify-content: center;

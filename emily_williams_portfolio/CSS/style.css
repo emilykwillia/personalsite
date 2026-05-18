@@ -345,7 +345,7 @@ animation: spin 5s infinite;
         padding: 8px;
     }
 
-   page {
+   .page {
         height: auto;
     }
 

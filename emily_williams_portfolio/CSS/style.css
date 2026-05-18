@@ -336,17 +336,21 @@ animation: spin 5s infinite;
 }
 
 @media (max-width: 480px) {
-    body {
-        height: auto;
+   nav {
+        padding: 15px;
+        outline: rgb(12, 32, 23) solid 2px;
     }
 
     nav a {
-        font-size: 14px;
-        padding: 8px;
+        display: block;
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 16px;
     }
 
    .page {
         height: auto;
+        width: auto;
     }
 
     .title {

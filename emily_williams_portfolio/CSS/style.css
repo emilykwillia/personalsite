@@ -292,3 +292,77 @@ animation: spin 5s infinite;
     text-align : center;
 }
 
+
+/* Screen Adaptive */
+/* Responsive Design for Smaller Screens (Under 12") */
+@media (max-width: 768px) {
+    nav a {
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    nav a:hover {
+        font-size: 18px;
+    }
+    
+    .title {
+        font-size: 18px;
+        height: 150px;
+    }
+    
+    .projects {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .brainwave, .helote, .goldcoast {
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+    }
+
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+    body {
+        height: auto;
+    }
+    
+    nav {
+        padding: 15px;
+        outline: rgb(12, 32, 23) solid 2px;
+    }
+    
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+        display: block;
+        margin: 5px 0;
+    }
+    
+    nav a:hover {
+        font-size: 15px;
+    }
+    
+    .page {
+        height: auto;
+    }
+    
+    .title {
+        font-size: 16px;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .projects{
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .brainwave, .helote, .goldcoast {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+}

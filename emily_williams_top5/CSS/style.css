@@ -151,3 +151,80 @@ font-size: 30px;
   flex-direction: row;
 
 }
+
+/* Responsive Top5 page */
+@media (max-width: 1024px) {
+    nav a {
+        font-size: 18px;
+        padding: 18px;
+    }
+
+    .name {
+        font-size: 20px;
+        height: auto;
+    }
+
+    .music {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .music img {
+        max-width: 180px;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    nav {
+        padding: 15px;
+        outline: rgb(12, 32, 23) solid 2px;
+    }
+
+    nav a {
+        display: block;
+        margin: 5px 0;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .page {
+        height: auto;
+    }
+
+    .name {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .music {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .music img {
+        max-width: 220px;
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        height: auto;
+    }
+
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+    }
+
+    .name {
+        font-size: 16px;
+    }
+
+    .music img {
+        max-width: 180px;
+    }
+}

@@ -117,7 +117,30 @@ font-size: 30px;
 .books {
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 70px;
+}
+
+.books img {
+    transition: all 0.7s ease;
+    cursor: pointer;
+}
+
+.books img:hover {
+    animation: liftandscale 2s ease-in-out;
+    filter: drop-shadow(0 0 10px rgb(252, 255, 207));
+}
+
+@keyframes liftandscale {
+    0% {
+        transform: translateY(0) scale(1);
+    }
+     50% {
+        transform: translateY(-30px) scale(1.25);
+    }
+   
+    100% {
+        transform: translateY(0) scale(1);
+    }
 }
 
 /* Container Work! */
@@ -127,4 +150,97 @@ font-size: 30px;
     align-items: flex-start;
     margin: 20px 0;
 
+}
+
+/* Responsive Design for Smaller Screens (Under 12") */
+@media (max-width: 768px) {
+    nav a {
+        font-size: 16px;
+        padding: 15px;
+    }
+    
+    nav a:hover {
+        font-size: 18px;
+    }
+    
+    .name {
+        font-size: 18px;
+        height: 150px;
+    }
+    
+    .tyler, .gina, .oct {
+        padding: 20px;
+        font-size: 20px;
+    }
+    
+    .infoty, .infogi, .infooct {
+        padding: 20px;
+        font-size: 16px;
+    }
+    
+    .books {
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+    
+    .books img {
+        max-width: 150px;
+        height: auto;
+    }
+}
+
+/* Extra small screens (phones) */
+@media (max-width: 480px) {
+    body {
+        height: auto;
+    }
+    
+    nav {
+        padding: 15px;
+        outline: rgb(12, 32, 23) solid 2px;
+    }
+    
+    nav a {
+        font-size: 14px;
+        padding: 8px;
+        display: block;
+        margin: 5px 0;
+    }
+    
+    nav a:hover {
+        font-size: 15px;
+    }
+    
+    .page {
+        height: auto;
+    }
+    
+    .name {
+        font-size: 16px;
+        height: auto;
+        padding: 15px;
+    }
+    
+    .tyler, .gina, .oct {
+        padding: 15px;
+        font-size: 16px;
+    }
+    
+    .infoty, .infogi, .infooct {
+        padding: 15px;
+        font-size: 14px;
+    }
+    
+    .books {
+        gap: 15px;
+        padding: 10px;
+    }
+    
+    .books img {
+        max-width: 120px;
+    }
+    
+    .image1 {
+        display: none;
+    }
 }

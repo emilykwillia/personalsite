@@ -24,6 +24,23 @@ color : rgb(12, 32, 23);
 font-size: 30px;
 }
 
+nav img:hover {
+animation: spin 5s infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+     50% {
+        transform: rotate(360deg) scale(1.5);
+    }
+   
+    100% {
+        transform: rotate(-0deg);
+    }
+}
+
 /* Center Page */
 
 .break {
@@ -227,4 +244,7 @@ font-size: 30px;
     .music img {
         max-width: 180px;
     }
+}
+.contact {
+    text-align : center;
 }

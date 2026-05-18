@@ -345,10 +345,26 @@ animation: spin 5s infinite;
         padding: 8px;
     }
 
-    .title {
-        font-size: 16px;
+   page {
+        height: auto;
     }
 
+    .title {
+        font-size: 18px;
+        padding: 15px;
+    }
+
+    .brainwave, .helote, .goldcoast {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+     .brainwave p, .helote p, .goldcoast p{
+       font-size: 20px;
+    }
+    .brainwave link, .helote link, .goldcoast link{
+       font-size: 20px;
+    }
     .img {
         max-width: 180px;
     }

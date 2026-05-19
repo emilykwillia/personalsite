@@ -41,6 +41,8 @@ animation: spin 5s infinite;
     }
 }
 
+/* Center Page */
+
 .page {
     background: rgb(255, 246, 223);
     margin: 24px auto 40px;
@@ -71,6 +73,8 @@ animation: spin 5s infinite;
     border: 10px dotted rgb(255, 246, 223);
 }
 
+/* Brain Wave */
+
 .brainwave {
     background: rgb(98, 151, 124);
     color: rgb(255, 246, 223);
@@ -82,8 +86,6 @@ animation: spin 5s infinite;
     gap: 30px;
     text-align: center;
 }
-
-
 
 .brainwave > div:last-child {
     flex: 1;
@@ -108,6 +110,33 @@ animation: spin 5s infinite;
     margin: 0 0 12px;
     width: 750px;
 }
+
+.brainwave img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    border: 10px dotted rgb(255, 246, 223);
+}
+
+.brainwave a {
+    display: inline-block;
+    color: rgb(12, 32, 23);
+    text-decoration: none;
+    border: 2px solid rgb(12, 32, 23);
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+.brainwave a:hover{
+    background: rgb(255, 246, 223);
+    color: rgb(12, 32, 23);
+    gap: 50px;
+    font-size: 25px;
+}
+
+/* Helote */
 
 .helote {
     background: rgb(98, 151, 124);
@@ -148,6 +177,33 @@ animation: spin 5s infinite;
     margin: 0 0 12px;
 }
 
+.helote img {
+    width: 100%;
+    display: block;
+    margin: 0;
+    border: 10px dotted rgb(255, 246, 223);
+}
+
+.helote a {
+    display: inline-block;
+    color: rgb(12, 32, 23);
+    text-decoration: none;
+    border: 2px solid rgb(12, 32, 23);
+    padding: 12px 20px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.helote a:hover{
+    background: rgb(255, 246, 223);
+    color: rgb(12, 32, 23);
+     font-size: 25px;
+}
+
+/* Gold Coast */
+
 .goldcoast {
     background: rgb(98, 151, 124);
     color: rgb(255, 246, 223);
@@ -187,19 +243,6 @@ animation: spin 5s infinite;
     margin: 0 0 12px;
 }
 
-.brainwave img {
-    width: 100%;
-    display: block;
-    margin: 0;
-    border: 10px dotted rgb(255, 246, 223);
-}
-
-.helote img {
-    width: 100%;
-    display: block;
-    margin: 0;
-    border: 10px dotted rgb(255, 246, 223);
-}
 
 .goldcoast img {
     width: 100%;
@@ -208,29 +251,6 @@ animation: spin 5s infinite;
     border: 10px dotted rgb(255, 246, 223);
 }
 
-.brainwave a {
-    display: inline-block;
-    color: rgb(12, 32, 23);
-    text-decoration: none;
-    border: 2px solid rgb(12, 32, 23);
-    padding: 12px 20px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    transition: background 0.2s ease, color 0.2s ease;
-}
-
-.helote a {
-    display: inline-block;
-    color: rgb(12, 32, 23);
-    text-decoration: none;
-    border: 2px solid rgb(12, 32, 23);
-    padding: 12px 20px;
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-size: 16px;
-    transition: background 0.2s ease, color 0.2s ease;
-}
 
 .goldcoast a {
     display: inline-block;
@@ -244,24 +264,15 @@ animation: spin 5s infinite;
     transition: background 0.2s ease, color 0.2s ease;
 }
 
-.brainwave a:hover{
-    background: rgb(255, 246, 223);
-    color: rgb(12, 32, 23);
-    gap: 50px;
-    font-size: 25px;
-}
 
-.helote a:hover{
-    background: rgb(255, 246, 223);
-    color: rgb(12, 32, 23);
-     font-size: 25px;
-}
 
 .goldcoast a:hover {
     background: rgb(255, 246, 223);
     color: rgb(12, 32, 23);
      font-size: 25px;
 }
+
+/* Container Work! */
 
 .container {
     display: flex;

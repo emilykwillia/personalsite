@@ -137,6 +137,9 @@ animation: spin 5s infinite;
     gap: 70px;
 }
 
+
+/* Book Hover Animation */
+
 .books img {
     transition: all 0.7s ease;
     cursor: pointer;
@@ -161,6 +164,7 @@ animation: spin 5s infinite;
 }
 
 /* Container Work! */
+
 .container {
     display: flex;
     justify-content: center;
